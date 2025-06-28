@@ -1,9 +1,9 @@
 {
     "version": 2,
     "functions": {
-      "api/index.py": { "runtime": "python3.11" }   // pin runtime
+      "api/index.py": { "runtime": "python3.11" }   
     },
     "routes": [
-      { "src": "/(.*)", "dest": "api/index.py" }    // route everything to FastAPI
+      { "src": "/(.*)", "dest": "api/index.py" }    
     ]
   }
