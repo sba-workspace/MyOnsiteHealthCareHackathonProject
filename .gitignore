@@ -1,0 +1,64 @@
+# --------------------- Python artifacts ---------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# --------------------- Virtual environments ----------------
+env/
+ENV/
+venv/
+.venv/
+*.venv/
+
+# --------------------- Testing / coverage ------------------
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.pyre/
+.mypy_cache/
+
+# --------------------- Logs & debug output -----------------
+*.log
+
+# --------------------- Editors & OS files ------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------- Secrets / environment --------------
+.env
+*.env
+*.pem
+*.key
+
+# --------------------- Vercel build cache ------------------
+.vercel
+
+# --------------------- Data / models (keep samples only) ---
+data/
+models/
+*.pkl
+*.h5
+*.parquet
+*.csv
+*.tsv
+
+# --------------------- Jupyter -----------------------------
+.ipynb_checkpoints/
+
+# --------------------- Archives ----------------------------
+*.zip
+*.tar.gz
+*.tar
